@@ -56,8 +56,11 @@ export default function useWeather() {
 
   const [loading, setLoading] = useState(false)
 
+  const [notFound, setNotFound] = useState(false)
+
   const fetchWeather = async (search: SearchType) => {
     setWeather(initialState)
+    setNotFound(false)
     const appId = import.meta.env.VITE_API_KEY
     setLoading(true)
     try {
@@ -67,7 +70,7 @@ export default function useWeather() {
 
       // Validate if city exist
       if (!data[0]) {
-        console.log('clima no encontrado')
+        setNotFound(true)
         return
       }
 
@@ -115,5 +118,6 @@ export default function useWeather() {
     fetchWeather,
     weather,
     loading,
+    notFound,
   }
 }
