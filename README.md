@@ -1,33 +1,34 @@
 # 🌦️ Weather Forecaster
 
-**Weather Forecaster** es una aplicación responsive desarrollada con **React** y **TypeScript** que permite consultar el clima actual de cualquier ciudad. Utiliza una API externa para obtener datos meteorológicos y ofrece una interfaz limpia, rápida y adaptativa.
+**Weather Forecaster** is a responsive React + TypeScript application that allows users to search for real-time weather data by city. It fetches data from a public API and displays it through a clean and mobile-friendly interface.
 
 ## 🚀 Features
 
-- Búsqueda de clima actual por ciudad
-- Petición de datos mediante `axios` desde una API externa
-- Validación del formulario con **Valibot**, **Zod** y **type guards**
-- Indicadores de estado de carga y errores
-- Responsive para escritorio y móvil
-- ✅ Tipado estricto con TypeScript
-- ✅ Componentes organizados y reutilizables
+- Search current weather by city name
+- Fetch data from a weather API using `axios`
+- Form validation with **Valibot**, **Zod**, and **Type Guards**
+- Error and loading state handling
+- Responsive design for desktop and mobile
+- ✅ Type-safe with TypeScript
+- ✅ Organized, reusable components
 
-## 🛠️ Tecnologías Usadas
+## 🛠️ Technologies Used
 
-- **React** – Creación de interfaces declarativas
-- **TypeScript** – Tipado estático robusto
-- **Tailwind CSS** – Framework CSS utilitario para diseño responsive
-- **axios** – Cliente HTTP para obtener los datos del clima
-- **Valibot** + **Zod** – Validación segura del formulario
-- **Vite** – Empaquetador y servidor de desarrollo rápido
-- **npm** – Gestión de dependencias
+- **React** – Component-based UI library
+- **TypeScript** – Static typing for reliability and scalability
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI building
+- **axios** – HTTP client for API requests
+- **Valibot** + **Zod** – Form validation and type safety
+- **Vite** – Fast development server and bundler
+- **npm** – Dependency management
+
 
 ## 🔗 Live Demo
 
-👉 [Haz clic aquí para ver la demo]([https://tu-url-deploy.com](https://weather-app-2497.netlify.app/))
+👉 [Click here to view the live demo](https://weather-app-2497.netlify.app/) *(replace with your actual deployment)*
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la licencia MIT. Eres libre de usarlo y adaptarlo para tus necesidades.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) — you are free to use, modify, and distribute it with proper attribution.
 
 ---
